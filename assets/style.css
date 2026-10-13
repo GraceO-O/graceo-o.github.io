@@ -389,7 +389,7 @@ border: 1px solid rgba(255,255,255,.12);
     height: 132px;
 }
 
-/* Optional Hover Effect */
+/* Hover Effect */
 .bento-tray .card:hover .card-img {
     transform: scale(1.03);
 }
