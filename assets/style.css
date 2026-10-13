@@ -363,3 +363,109 @@ border: 1px solid rgba(255,255,255,.12);
         opacity: 0;
     }
 }
+
+/*Act1 bento*/
+
+/* Desktop  */
+.bento-tray .top-row {
+    height: 155px;
+}
+
+.bento-tray .bottom-row {
+    height: 265px;
+}
+
+.bento-tray .rice-box,
+.bento-tray .chicken-box,
+.bento-tray .pork-box {
+    height: 100%;
+}
+
+.bento-tray .middle-row {
+    height: 125px;
+}
+
+.bento-tray .corn-row {
+    height: 132px;
+}
+
+/* Optional Hover Effect */
+.bento-tray .card:hover .card-img {
+    transform: scale(1.03);
+}
+
+/* Tablet */
+@media (max-width: 767.98px) {
+    .bento-tray {
+        padding: 6px;
+        border-radius: 17px;
+    }
+
+    .bento-tray .row {
+        --bs-gutter-x: 6px;
+        --bs-gutter-y: 6px;
+    }
+
+    .bento-tray .top-row {
+        height: 130px;
+    }
+
+    .bento-tray .bottom-row {
+        height: 220px;
+    }
+
+    .bento-tray .middle-row {
+        height: 104px;
+    }
+
+    .bento-tray .corn-row {
+        height: 108px;
+    }
+
+    .bento-tray .card {
+        border-radius: 11px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .bento-tray {
+        padding: 4px;
+        border-radius: 13px;
+    }
+
+    .bento-tray .row {
+        --bs-gutter-x: 4px;
+        --bs-gutter-y: 4px;
+    }
+
+    .bento-tray .top-row {
+        height: 100px;
+    }
+
+    .bento-tray .bottom-row {
+        height: auto;
+    }
+
+    .bento-tray .rice-box,
+    .bento-tray .chicken-box {
+        height: 100px;
+    }
+
+    .bento-tray .pork-box {
+        height: 180px;
+    }
+
+    .bento-tray .middle-row {
+        height: 86px;
+    }
+
+    .bento-tray .corn-row {
+        height: 90px;
+    }
+
+    .bento-tray .card {
+        border-radius: 8px;
+        border-width: 1px;
+    }
+}
